@@ -4,7 +4,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useRef } from "react";
-import article1 from "../../public/images/articles/pagination component in reactjs.jpg";
+import article1 from "../../public/images/articles/rabitmq.jpg";
 import article2 from "../../public/images/articles/create loading screen in react js.jpg";
 import article3 from "../../public/images/articles/create modal component in react using react portals.png";
 import article4 from "../../public/images/articles/form validation in reactjs using custom react hook.png";
@@ -116,9 +116,8 @@ const articles = () => {
           />
           <ul className="grid grid-cols-2 gap-16 md:grid-cols-1 lg:gap-8 md:gap-y-16">
             <FeaturedArticles
-              title="Build A Custom Pagination Component In Reactjs From Scratch"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch. 
-            Follow this step-by-step guide to integrate Pagination component in your ReactJS project."
+              title="This guide provides step-by-step instructions to install RabbitMQ on various platforms"
+              summary="RabbitMQ is a powerful and versatile message broker that plays a crucial role in modern software architectures. Its ability to reliably handle high volumes of messages, support flexible routing, and integrate with various protocols makes it an excellent choice for building scalable and robust applications."
               time="9 min read"
               link={"/"}
               img={article1}

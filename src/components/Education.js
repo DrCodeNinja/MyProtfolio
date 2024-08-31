@@ -45,19 +45,20 @@ const Education = () => {
         />
         <ul className="flex flex-col items-start justify-between w-full ml-4 xs:ml-2">
           <Details
-            type="Bachelor of Information and Communication 
-            Technology (Hons.)"
+            type="Bachelor of  Commerce in computers 
+            Technology (Computer Application)"
             time="2019-2023"
-            place="University of Vavuniya"
-            info="The Bachelor of Information Communication Technology honours degree programme is designed to meet the SLQF Level 6 and Computer Society of Sri Lanka requirements. Volume of learning of the entire programme is 120 academic credits including 12 credits from the group research project and industrial training."
+            place=" Padmavathi Degree Collage"
+            info="The Bachelor of Information Communication A Bachelor of Commerce in Computers, also known as a BCom Computer Applications, is an undergraduate course that combines commerce and computer science. 
+            It's a three-year course that covers a range of topics, including:Technology honours degree programme is designed to meet the SLQF Level 6 and Computer Society of Sri Lanka requirements.
+             Volume of learning of the entire programme is 120 academic credits including 12 credits from the group research project and industrial training."
           />
           <Details
-            type=" G.C.E Advanced Level - Technology Stream"
-            time="2015-2017"
-            place="Kuruduwaththa Royal College"
-            info="GCE Advanced Level Technology Subject Stream was
-            to create an individual who possessed both theoretical and practical knowledge, and was
-            equipped with skills required to enter the future world of work, through the school."
+            type=" Board of Intermediate Education"
+            time="2016-2018"
+            place="Deeksha Junior Collage"
+            info=" it is absolutely necessary in the near future. Certain colleges require 50% of your class 12th marks along with 50% entrance exam marks. And in case you can't score in entrance,
+             it is your class 12 marks that get you admitted into some colleges"
           />
         </ul>
       </div>

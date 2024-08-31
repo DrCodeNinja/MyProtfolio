@@ -22,19 +22,22 @@ const Skills = () => {
       </h2>
       <div className=" lg:bg-circularLightLg lg:dark:bg-circularDarkLg md:bg-circularLightMd md:dark:bg-circularDarkMd sm:bg-circularLightSm sm:dark:bg-circularDarkSm lg:h-[80vh] sm:h-[60vh] xs:h-[50vh] relative flex items-center justify-center w-full h-screen rounded-full bg-circularLight dark:bg-circularDark">
         <motion.div
-          className="flex items-center justify-center p-8 font-semibold rounded-full cursor-pointer lg:p-6 md:p-4 xs:text-xs xs:p-2 dark:text-dark dark:bg-light shadow-dark bg-dark text-light"
+          className="flex items-center justify-center p-7 font-semibold rounded-full cursor-pointer lg:p-6 md:p-4 xs:text-xs xs:p-2 dark:text-dark dark:bg-light shadow-dark bg-dark text-light"
           whileHover={{ scale: 1.05 }}
         >
-          Web Developer
+          Software Testing
         </motion.div>
         <Skill name={"CSS"} x="-0vw" y="-13vw" />
         <Skill name={"HTML"} x="-12vw" y="10vw" />
         <Skill name={"Javascript"} x="14vw" y="-10vw" />
-        <Skill name={"AdobeXD"} x="-15vw" y="-10vw" />
-        <Skill name={"Figma"} x="15vw" y="10vw" />
-        <Skill name={"MongoDB"} x="12vw" y="-20vw" />
-        <Skill name={"ReactJS"} x="-15vw" y="-20vw" />
-        <Skill name={"SQL"} x="-29vw" y="0vw" />
+        <Skill name={"Manual testing"} x="-15vw" y="-10vw" />
+        <Skill name={"Automation testing"} x="-28vw" y="-8vw" />
+        <Skill name={" Api testing"} x="15vw" y="10vw" />
+        <Skill name={" Database testing"} x="-3vw" y="8vw" />
+        <Skill name={"Jira Tool"} x="25vw" y="10vw" />
+        <Skill name={" Sql"} x="12vw" y="-20vw" />
+        <Skill name={"JAVA"} x="-15vw" y="-20vw" />
+        <Skill name={"MYSQL"} x="-29vw" y="0vw" />
       </div>
     </>
   );

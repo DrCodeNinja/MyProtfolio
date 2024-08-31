@@ -8,7 +8,7 @@ const HireMe = () => {
       <div className="relative flex items-center justify-center w-48 h-auto md:w-24">
         <CircularText2 className=" dark:fill-light fill-dark animate-spin-slow" />
         <Link
-          href="mailto:dasanayakabandara81@gmail.com"
+          href="mailto:vamshikrishnapolepu@gmail.com"
           className=" md:w-12 md:h-12 md:text-[10px] absolute flex items-center justify-center text-2xl font-semibold -translate-x-1/2 -translate-y-1/2 border border-solid rounded-full shadow-md dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light w-28 h-28 left-1/2 top-1/2 bg-dark text-light border-dark hover:bg-light hover:text-dark"
         >
           Hire me

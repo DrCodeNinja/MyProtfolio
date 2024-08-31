@@ -96,7 +96,7 @@ const NavBar = () => {
 
         <nav className="flex items-center justify-center fl">
           <motion.a
-            href="https://twitter.com/Dasanay81152870"
+            href="https://twitter.com"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -105,7 +105,7 @@ const NavBar = () => {
             <TwitterIcon />
           </motion.a>
           <motion.a
-            href="https://github.com/DrCodeNinja"
+            href="https://github.com/CHINTU613"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -114,7 +114,7 @@ const NavBar = () => {
             <GithubIcon />
           </motion.a>
           <motion.a
-            href="https://www.linkedin.com/in/drcodeninja/"
+            href="http://www.linkedin.com/in/vamshi-krishna-polepu-99b052294"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -173,7 +173,7 @@ const NavBar = () => {
 
           <nav className="flex flex-wrap items-center justify-center mt-2">
             <motion.a
-              href="https://twitter.com/Dasanay81152870"
+              href="https://twitter.com"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
@@ -182,7 +182,7 @@ const NavBar = () => {
               <TwitterIcon />
             </motion.a>
             <motion.a
-              href="https://github.com/DrCodeNinja"
+              href="https://github.com/CHINTU613"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
@@ -191,7 +191,7 @@ const NavBar = () => {
               <GithubIcon />
             </motion.a>
             <motion.a
-              href="https://www.linkedin.com/in/drcodeninja/"
+              href="http://www.linkedin.com/in/vamshi-krishna-polepu-99b052294"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}

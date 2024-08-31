@@ -4,11 +4,8 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useRef } from "react";
-import article1 from "../../public/images/articles/rabitmq.jpg";
-import article2 from "../../public/images/articles/create loading screen in react js.jpg";
-import article3 from "../../public/images/articles/create modal component in react using react portals.png";
-import article4 from "../../public/images/articles/form validation in reactjs using custom react hook.png";
-import article5 from "../../public/images/articles/smooth scrolling in reactjs.png";
+import article1 from "../../public/images/articles/Addactin_project.jpeg";
+import article2 from "../../public/images/articles/Orange_projects.jpeg";
 import { motion, useMotionValue } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -104,7 +101,7 @@ const articles = () => {
   return (
     <>
       <Head>
-        <title>DR Developer | Articles Page</title>
+        <title> Vamshi | Articles Page</title>
         <meta name="description" content="any description" />
       </Head>
       <TransitionEffect />
@@ -116,18 +113,19 @@ const articles = () => {
           />
           <ul className="grid grid-cols-2 gap-16 md:grid-cols-1 lg:gap-8 md:gap-y-16">
             <FeaturedArticles
-              title="This guide provides step-by-step instructions to install RabbitMQ on various platforms"
-              summary="RabbitMQ is a powerful and versatile message broker that plays a crucial role in modern software architectures. Its ability to reliably handle high volumes of messages, support flexible routing, and integrate with various protocols makes it an excellent choice for building scalable and robust applications."
+              title="This guide provides step-by-step instructions to install  Addactin on various platforms"
+              summary="Adactin - Manual Testing
+                   Developed and executed comprehenvise Test Scenarios and Cases ,ensuring 100% coverage for room availability checks and online payments"
               time="9 min read"
-              link={"/"}
+              link={"https://adactinhotelapp.com/"}
               img={article1}
             />
             <FeaturedArticles
-              title="Build A Custom Pagination Component In Reactjs From Scratch"
+              title="Orange hrms - E-Commerce Project - Automation Testing"
               summary="Learn how to build a custom pagination component in ReactJS from scratch. 
             Follow this step-by-step guide to integrate Pagination component in your ReactJS project."
               time="9 min read"
-              link={"/"}
+              link={"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"}
               img={article2}
             />
           </ul>
@@ -137,43 +135,43 @@ const articles = () => {
           <ul>
             <Articles
               title={
-                "Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
+                "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
               }
-              date={"March 22, 2023"}
+              date={"March 22, 2024"}
               link={"/"}
-              img={article3}
+              img={article1}
             />
             <Articles
               title={
-                "Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
+                "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
               }
-              date={"March 22, 2023"}
+              date={"March 22, 2024"}
               link={"/"}
-              img={article4}
+              img={article2}
             />
             <Articles
               title={
-                "Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
+                "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
               }
-              date={"March 22, 2023"}
+              date={"March 22, 2024"}
               link={"/"}
-              img={article5}
+              img={article1}
             />
             <Articles
               title={
-                "Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
+                "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
               }
-              date={"March 22, 2023"}
+              date={"March 22, 2024"}
               link={"/"}
-              img={article3}
+              img={article2}
             />
             <Articles
               title={
-                "Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
+                "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
               }
-              date={"March 22, 2023"}
+              date={"March 22, 2024"}
               link={"/"}
-              img={article3}
+              img={article1}
             />
           </ul>
         </Layout>

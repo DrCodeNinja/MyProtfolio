@@ -52,15 +52,24 @@ const Experience = () => {
         />
         <ul className="flex flex-col items-start justify-between w-full ml-4 xs:ml-2">
           <Details
-            position="Software Engineer"
-            company="Nanosoft Global (Pvt) Limited"
-            companyLink={"https://nanosoft.lk/"}
-            time="2023-Present"
-            address="No. 86, 2nd Floor,
-            Kurunegala Road,
-            Kuliyapitiya (60200),
-            Sri Lanka."
-            work="Worked on a team responsible for developing new software call 'Spend Wise' for the company. Spend Wise is a comprehensive software solution designed with the objective of enhancing financial literacy and stability."
+            position="Software Testing Engineer"
+            company="Adactin - Manual testing"
+            companyLink={"https://adactinhotelapp.com/"}
+            time=" Auguest 2023 - October 2023"
+            address="Naresh it - Hyderabad."
+            work="Developed and executed  compreshensive Test Scenarios an CaseS,ensuring 100% coverage for room availability checks and online payments."
+          />
+        </ul>
+        <br>
+        </br>
+        <ul className="flex flex-col items-start justify-between w-full ml-4 xs:ml-2">
+          <Details
+            position="Software Testing Engineer"
+            company=" Orange HRMS -E-Commerce project - Automation testing"
+            companyLink={"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"}
+            time=" Auguest 2023 - November 2023"
+            address="Naresh it - Hyderabad."
+            work="Developed and executed  compreshensive Test Scenarios an CaseS,ensuring 100% coverage for room availability checks and online payments."
           />
         </ul>
       </div>

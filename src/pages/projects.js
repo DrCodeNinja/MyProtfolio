@@ -5,8 +5,9 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import projects1 from "../../public/images/projects/pro1.jpg";
-import projects2 from "../../public/images/projects/react_restaurent_pro.jpg";
+import projects1 from "../../public/images/projects/Orange_projects.jpeg";
+import projects2 from "../../public/images/projects/Addactin_project.jpeg";
+import projects3 from "../../public/images/projects/ibk_project.jpeg";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -116,7 +117,7 @@ const projects = () => {
   return (
     <>
       <Head>
-        <title>DR Developer | Projects Page</title>
+        <title> Vamshi | Projects Page</title>
         <meta name="description" content="any description" />
       </Head>
       <TransitionEffect />
@@ -129,21 +130,18 @@ const projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                title="Promptopia AI Prompting Application"
-                summary="Promptopia is an open-source Al prompting tool for medern world to
-                discover, create and share creative prompts."
-                link={"https://github.com/DrCodeNinja/NextJS-Blog-App"}
-                github={"https://github.com/DrCodeNinja/NextJS-Blog-App"}
-                type={"NextJS Project"}
+                title=" Orange Hrms E-Commerce Project-Automation Testing"
+                summary="Facilitaed Peer Reviews,reesultin in a decrease in critical defacts for high-quality Test Scenarios and scripts"
+                link={"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"}
+                github={"https://github.com/CHINTU613"}
+                type={" Automation Project"}
                 img={projects1}
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-              It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-              local currency."
+                title="Adactin - Manual Testing"
+                summary=" Developed and executed comprehenvise Test Scenarios and Cases ,ensuring 100% coverage for room availability checks and online payments"
                 link={"/"}
                 github={"/"}
                 type={"Featured Project"}
@@ -153,31 +151,31 @@ const projects = () => {
             <div className="col-span-6 sm:col-span-12">
               {" "}
               <Project
-                title="Crypto Screener Application"
+                title=" IBK INTERNET BANKING  "
                 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
               It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
               local currency."
-                link={"/"}
-                github={"/"}
+                link={"http://183.82.103.245:8888/BankingProject/LoginFormBuild1.jsp"}
+                github={"https://github.com/CHINTU613"}
                 type={"Featured Project"}
-                img={projects1}
+                img={projects3}
               />
             </div>
             <div className="col-span-12">
               {" "}
               <FeaturedProject
-                title="Restaurent Application"
-                summary="This is a full stack restaurent management application in reactJS. It include all the CRUD operations related to simple application."
-                link={"/"}
-                github={"/"}
-                type={"ReactJS Project"}
+                title=" Adactin - Manual Testing"
+                summary=" Developed and executed comprehenvise Test Scenarios and Cases ,ensuring 100% coverage for room availability checks and online payments"
+                link={"https://adactinhotelapp.com/"}
+                github={"https://github.com/CHINTU613"}
+                type={"Manual Project"}
                 img={projects2}
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               {" "}
               <Project
-                title="Crypto Screener Application"
+                title=" Manaul tesing"
                 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
               It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
               local currency."
@@ -190,7 +188,7 @@ const projects = () => {
             <div className="col-span-6 sm:col-span-12">
               {" "}
               <Project
-                title="Crypto Screener Application"
+                title=" Automation"
                 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
               It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
               local currency."

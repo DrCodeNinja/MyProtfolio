@@ -2,7 +2,7 @@ import AnimatedText from "@/components/AnimatedText";
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import React, { useEffect, useRef } from "react";
-import profilePic from "../../public/images/profile/profile_pic.png";
+import profilePic from "../../public/images/profile/profile_vamshi.png";
 import Image from "next/image";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
 import Skills from "@/components/Skills";
@@ -38,7 +38,7 @@ const about = () => {
   return (
     <>
       <Head>
-        <title>DR Developer | About Page</title>
+        <title> Vamshi | About Page</title>
         <meta name="description" content="any description" />
       </Head>
       <TransitionEffect />
@@ -54,11 +54,10 @@ const about = () => {
                 Biography
               </h2>
               <p className="font-medium ">
-                Hi, I&apos;m CodeBucks, a full stack web developer with a
-                passion for creating beautiful, functional, and user-centered
-                digital experiences. I have real world project experience in the
-                field. I am always looking for new and innovative ways to bring
-                my clients visions to life.
+                Hi, I&apos;"Results-driven software engineer with 8 Mouth of experience in designing, developing,
+                 and deploying high-quality software solutions. Proficient in Java and Manual texting Automation,
+                  with a strong focus on 
+                mention specific areas, e.g.,  Java ,Sql,  Manul tesing, or Automation..
               </p>
               <p className="my-4 font-medium">
                 I believe that design is about more than just making things look
@@ -77,7 +76,7 @@ const about = () => {
               <div className=" absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light" />
               <Image
                 src={profilePic}
-                alt="DR Developer"
+                alt=" Vamshi tees"
                 className="w-full h-auto rounded-2xl"
                 priority
                 sizes="(max-width: 768px) 100vw,(max-width: 1200px) 50vw,33vw"
@@ -86,18 +85,10 @@ const about = () => {
             <div className="flex flex-col items-end justify-between col-span-2 md:order-3 xl:col-span-8 xl:flex-row xl:items-center">
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block font-bold text-7xl md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumber value={15} />+
+                  <AnimatedNumber value={4} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize dark:text-light/75 text-dark/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
-                  satisfied clients
-                </h2>
-              </div>
-              <div className="flex flex-col items-end justify-center xl:items-center">
-                <span className="inline-block font-bold text-7xl md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumber value={10} />+
-                </span>
-                <h2 className="text-xl font-medium capitalize dark:text-light/75 text-dark/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
-                  projects completed
+                 Successful Project 
                 </h2>
               </div>
               <div className="flex flex-col items-end justify-center xl:items-center">
@@ -105,7 +96,15 @@ const about = () => {
                   <AnimatedNumber value={1} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize dark:text-light/75 text-dark/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
-                  years of experience
+                 Working Project 
+                </h2>
+              </div>
+              <div className="flex flex-col items-end justify-center xl:items-center">
+                <span className="inline-block font-bold text-7xl md:text-6xl sm:text-5xl xs:text-4xl">
+                  <AnimatedNumber value={9} />+
+                </span>
+                <h2 className="text-xl font-medium capitalize dark:text-light/75 text-dark/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
+                   Month of experience
                 </h2>
               </div>
             </div>

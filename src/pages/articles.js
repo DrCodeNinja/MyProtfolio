@@ -5,8 +5,8 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useRef } from "react";
 import article1 from "../../public/images/articles/rabitmq.jpg";
-import article2 from "../../public/images/articles/create loading screen in react js.jpg";
-import article3 from "../../public/images/articles/create modal component in react using react portals.png";
+import article2 from "../../public/images/articles/nestjs.jpg";
+import article3 from "../../public/images/articles/seq.png";
 import article4 from "../../public/images/articles/form validation in reactjs using custom react hook.png";
 import article5 from "../../public/images/articles/smooth scrolling in reactjs.png";
 import { motion, useMotionValue } from "framer-motion";
@@ -118,17 +118,25 @@ const articles = () => {
             <FeaturedArticles
               title="This guide provides step-by-step instructions to install RabbitMQ on various platforms"
               summary="RabbitMQ is a powerful and versatile message broker that plays a crucial role in modern software architectures. Its ability to reliably handle high volumes of messages, support flexible routing, and integrate with various protocols makes it an excellent choice for building scalable and robust applications."
-              time="9 min read"
-              link={"/"}
+              time="5 min read"
+              link={
+                "https://github.com/DrCodeNinja/RabbitMQ-Comprehensive-Guide"
+              }
               img={article1}
             />
             <FeaturedArticles
-              title="Build A Custom Pagination Component In Reactjs From Scratch"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch. 
-            Follow this step-by-step guide to integrate Pagination component in your ReactJS project."
-              time="9 min read"
-              link={"/"}
+              title="Guide for installation of NestJS on your local machine"
+              summary="NestJS provides a modern, robust framework for building scalable and maintainable server-side applications in Node.js. Its combination of TypeScript, modular architecture, and a vibrant ecosystem makes it an excellent choice for developers at all levels."
+              time="4 min read"
+              link={"https://github.com/DrCodeNinja/NestJS-Comprehensive-Guide"}
               img={article2}
+            />
+            <FeaturedArticles
+              title="How to Configure Seq in Golang Application"
+              summary="Seq is a powerful log server that helps you collect, search, and analyze application logs. Running Seq in Docker is an efficient way to deploy it quickly without worrying about manual installations. This guide will walk you through the complete setup of Seq in Docker."
+              time="12 min read"
+              link={"https://github.com/DrCodeNinja/How-Setup-Seq-In-Golang"}
+              img={article3}
             />
           </ul>
           <h2 className="w-full my-16 mt-32 text-4xl font-bold text-center">
@@ -137,42 +145,28 @@ const articles = () => {
           <ul>
             <Articles
               title={
-                "Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
+                "RabbitMQ is a powerful and versatile message broker that plays a crucial role in modern software architectures. Its ability to reliably handle high volumes of messages, support flexible routing, and integrate with various protocols makes it an excellent choice for building scalable and robust applications."
               }
-              date={"March 22, 2023"}
-              link={"/"}
-              img={article3}
+              date={"August 22, 2024"}
+              link={
+                "https://github.com/DrCodeNinja/RabbitMQ-Comprehensive-Guide"
+              }
+              img={article1}
             />
             <Articles
               title={
-                "Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
+                "NestJS provides a modern, robust framework for building scalable and maintainable server-side applications in Node.js. Its combination of TypeScript, modular architecture, and a vibrant ecosystem makes it an excellent choice for developers at all levels."
               }
-              date={"March 22, 2023"}
-              link={"/"}
-              img={article4}
+              date={"August 26, 2024"}
+              link={"https://github.com/DrCodeNinja/NestJS-Comprehensive-Guide"}
+              img={article2}
             />
             <Articles
               title={
-                "Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
+                "Seq is a powerful log server that helps you collect, search, and analyze application logs. Running Seq in Docker is an efficient way to deploy it quickly without worrying about manual installations. This guide will walk you through the complete setup of Seq in Docker."
               }
-              date={"March 22, 2023"}
-              link={"/"}
-              img={article5}
-            />
-            <Articles
-              title={
-                "Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-              }
-              date={"March 22, 2023"}
-              link={"/"}
-              img={article3}
-            />
-            <Articles
-              title={
-                "Form Validation In Reactjs: Build A Reusable Custom Hook For Inputs And Error Handling"
-              }
-              date={"March 22, 2023"}
-              link={"/"}
+              date={"August 26, 2024"}
+              link={"https://github.com/DrCodeNinja/How-Setup-Seq-In-Golang"}
               img={article3}
             />
           </ul>

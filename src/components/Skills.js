@@ -35,6 +35,19 @@ const Skills = () => {
         <Skill name={"MongoDB"} x="12vw" y="-20vw" />
         <Skill name={"ReactJS"} x="-15vw" y="-20vw" />
         <Skill name={"SQL"} x="-29vw" y="0vw" />
+        <Skill name={"Tailwind"} x="0vw" y="20vw" />
+        <Skill name={"NextJS"} x="29vw" y="0vw" />
+        <Skill name={"NodeJS"} x="22vw" y="15vw" />
+        <Skill name={"Golang"} x="-12vw" y="19vw" />
+        <Skill name={"Github"} x="12vw" y="19vw" />
+        <Skill name={"Postgres"} x="-25vw" y="-15vw" />
+        <Skill name={"Mysql"} x="23vw" y="-15vw" />
+        <Skill name={"Seq"} x="0vw" y="11vw" />
+        <Skill name={"C#"} x="-22vw" y="15vw" />
+        <Skill name={"Auth0"} x="0vw" y="-20vw" />
+        <Skill name={"Redis"} x="0vw" y="-20vw" />
+        <Skill name={"Docker"} x="0vw" y="-20vw" />
+        <Skill name={"Postman"} x="0vw" y="-20vw" />
       </div>
     </>
   );

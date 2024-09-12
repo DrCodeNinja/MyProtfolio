@@ -6,6 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import projects1 from "../../public/images/projects/pro1.jpg";
+import projects1_1 from "../../public/images/projects/gocrud.jpg";
 import projects2 from "../../public/images/projects/react_restaurent_pro.jpg";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
@@ -140,14 +141,16 @@ const projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-              It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-              local currency."
-                link={"/"}
-                github={"/"}
+                title="This is a basic CRUD application built with Go, featuring user authentication using JWT tokens."
+                summary="This is a basic CRUD application built with Go, featuring user authentication using JWT tokens. The application allows users to create, read, update, and delete records securely, ensuring that only authenticated users can access and modify data. JWT tokens are used for managing user sessions, providing a lightweight and secure way to handle authentication. This setup is ideal for learning the basics of Go, implementing secure user authentication, and building a foundation for more complex applications."
+                link={
+                  "https://github.com/DrCodeNinja/Go-CRUD-Application-With-UserAthentication-Using-JWT"
+                }
+                github={
+                  "https://github.com/DrCodeNinja/Go-CRUD-Application-With-UserAthentication-Using-JWT"
+                }
                 type={"Featured Project"}
-                img={projects1}
+                img={projects1_1}
               />
             </div>
             <div className="col-span-6 sm:col-span-12">

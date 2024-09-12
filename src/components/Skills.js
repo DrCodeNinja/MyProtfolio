@@ -7,7 +7,7 @@ const Skill = ({ name, x, y }) => {
       className=" xs:bg-transparent xs:dark:bg-transparent xs:text-dark xs:dark:text-light xs:font-bold lg:py-2 lg:px-4 md:text-sm md:py-1.5 md:px-3 absolute flex items-center justify-center px-3 py-3 font-semibold rounded-full cursor-pointer dark:text-dark dark:bg-light shadow-dark bg-dark text-light"
       whileHover={{ scale: 1.05 }}
       initial={{ x: 0, y: 0 }}
-      whileInView={{ x: x, y: y, transition: { duration: 1.5 } }}
+      whileInView={{ x: x, y: y, transition: { duration: 2 } }}
     >
       {name}
     </motion.div>
@@ -34,9 +34,9 @@ const Skills = () => {
         <Skill name={"Figma"} x="15vw" y="10vw" />
         <Skill name={"MongoDB"} x="12vw" y="-20vw" />
         <Skill name={"ReactJS"} x="-15vw" y="-20vw" />
-        <Skill name={"SQL"} x="-29vw" y="0vw" />
+        <Skill name={"SQL"} x="-26vw" y="0vw" />
         <Skill name={"Tailwind"} x="0vw" y="20vw" />
-        <Skill name={"NextJS"} x="29vw" y="0vw" />
+        <Skill name={"NextJS"} x="26vw" y="0vw" />
         <Skill name={"NodeJS"} x="22vw" y="15vw" />
         <Skill name={"Golang"} x="-12vw" y="19vw" />
         <Skill name={"Github"} x="12vw" y="19vw" />
@@ -44,9 +44,9 @@ const Skills = () => {
         <Skill name={"Mysql"} x="23vw" y="-15vw" />
         <Skill name={"Seq"} x="0vw" y="11vw" />
         <Skill name={"C#"} x="-22vw" y="15vw" />
-        <Skill name={"Auth0"} x="0vw" y="-20vw" />
-        <Skill name={"Redis"} x="0vw" y="-20vw" />
-        <Skill name={"Docker"} x="0vw" y="-20vw" />
+        <Skill name={"Auth0"} x="35vw" y="5vw" />
+        <Skill name={"Redis"} x="35vw" y="-5vw" />
+        <Skill name={"Docker"} x="-35vw" y="-5vw" />
         <Skill name={"Postman"} x="0vw" y="-20vw" />
       </div>
     </>

@@ -20,7 +20,7 @@ export default function App({ Component, pageProps }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main
-        className={`${montserrat.variable} dark:bg-dark font-mont bg-light w-full min-h-screen`}
+        className={`${montserrat.variable} relative dark:bg-dark font-mont bg-light w-full min-h-screen`}
       >
         <NavBar />
         <AnimatePresence mode="wait">

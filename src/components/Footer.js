@@ -17,11 +17,11 @@ const Footer = () => {
             &#9825;
           </span>{" "}
           <Link
-            href={"/"}
+            href={"https://github.com/DrCodeNinja"}
             className="underline underline-offset-2"
             target="_blank"
           >
-            DR Developer
+            drcodeninja
           </Link>
         </div>
         <Link

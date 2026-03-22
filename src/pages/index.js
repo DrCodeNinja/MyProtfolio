@@ -4,11 +4,22 @@ import profilePic from "../../public/images/profile/main.png";
 import Image from "next/image";
 import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
-import { LinkArrow } from "@/components/Icons";
+import { LinkArrow, EmailIcon, WhatsAppIcon, CopyIcon, CheckIcon } from "@/components/Icons";
 import HireMe from "@/components/HireMe";
 import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg";
 import TransitionEffect from "@/components/TransitionEffect";
+import { useState } from "react";
+import { createPortal } from "react-dom";
+import { motion, AnimatePresence } from "framer-motion";
 export default function Home() {
+  const [showContact, setShowContact] = useState(false);
+  const [copied, setCopied] = useState("");
+
+  const handleCopy = (text) => {
+    navigator.clipboard.writeText(text);
+    setCopied(text);
+    setTimeout(() => setCopied(""), 2000);
+  };
   return (
     <>
       <Head>
@@ -48,13 +59,12 @@ export default function Home() {
                 >
                   Resume <LinkArrow className={"w-6 ml-1"} />
                 </Link>
-                <Link
-                  href="dasanayakabandara81@gmail.com"
-                  target="_blank"
+                <button
+                  onClick={() => setShowContact(true)}
                   className="ml-4 text-lg font-medium underline capitalize text-dark dark:text-light md:text-base"
                 >
                   Contact
-                </Link>
+                </button>
               </div>
             </div>
           </div>
@@ -64,6 +74,87 @@ export default function Home() {
           <Image src={lightBulb} alt="DR Developer" className="w-full h-auto" />
         </div>
       </main>
+
+      {typeof document !== "undefined" &&
+        createPortal(
+          <AnimatePresence>
+            {showContact && (
+              <motion.div
+                className="fixed inset-0 z-50 flex items-center justify-center bg-dark/60 backdrop-blur-sm"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                onClick={() => setShowContact(false)}
+              >
+                <motion.div
+                  className="relative w-full max-w-md p-8 mx-4 border border-solid rounded-2xl bg-light dark:bg-dark border-dark dark:border-light"
+                  initial={{ scale: 0.8, opacity: 0 }}
+                  animate={{ scale: 1, opacity: 1 }}
+                  exit={{ scale: 0.8, opacity: 0 }}
+                  transition={{ type: "spring", duration: 0.5 }}
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  <button
+                    onClick={() => setShowContact(false)}
+                    className="absolute text-2xl top-4 right-4 text-dark dark:text-light hover:text-primary dark:hover:text-primaryDark"
+                  >
+                    &times;
+                  </button>
+                  <h2 className="mb-6 text-2xl font-bold text-dark dark:text-light">
+                    Contact Me
+                  </h2>
+                  <div className="flex flex-col gap-4">
+                    <div className="flex items-center gap-3 p-3 border border-solid rounded-lg border-dark/10 dark:border-light/10">
+                      <a
+                        href="mailto:dasanayakabandara81@gmail.com"
+                        className="flex items-center flex-1 gap-3 min-w-0"
+                      >
+                        <span className="flex-shrink-0 w-8 text-primary dark:text-primaryDark">
+                          <EmailIcon />
+                        </span>
+                        <span className="font-medium truncate text-dark dark:text-light">
+                          dasanayakabandara81@gmail.com
+                        </span>
+                      </a>
+                      <button
+                        onClick={() => handleCopy("dasanayakabandara81@gmail.com")}
+                        className="flex-shrink-0 p-2 transition-colors rounded-md text-dark/50 dark:text-light/50 hover:text-dark dark:hover:text-light hover:bg-dark/10 dark:hover:bg-light/20"
+                      >
+                        <span className="w-5">
+                          {copied === "dasanayakabandara81@gmail.com" ? <CheckIcon className="text-green-500" /> : <CopyIcon />}
+                        </span>
+                      </button>
+                    </div>
+                    <div className="flex items-center gap-3 p-3 border border-solid rounded-lg border-dark/10 dark:border-light/10">
+                      <a
+                        href="https://wa.me/94754879676"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center flex-1 gap-3 min-w-0"
+                      >
+                        <span className="flex-shrink-0 w-8 text-[#25D366]">
+                          <WhatsAppIcon />
+                        </span>
+                        <span className="font-medium truncate text-dark dark:text-light">
+                          0754879676
+                        </span>
+                      </a>
+                      <button
+                        onClick={() => handleCopy("0754879676")}
+                        className="flex-shrink-0 p-2 transition-colors rounded-md text-dark/50 dark:text-light/50 hover:text-dark dark:hover:text-light hover:bg-dark/10 dark:hover:bg-light/20"
+                      >
+                        <span className="w-5">
+                          {copied === "0754879676" ? <CheckIcon className="text-green-500" /> : <CopyIcon />}
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </motion.div>
+              </motion.div>
+            )}
+          </AnimatePresence>,
+          document.body
+        )}
     </>
   );
 }

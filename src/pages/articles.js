@@ -12,7 +12,7 @@ import article5 from "../../public/images/articles/smooth scrolling in reactjs.p
 import { motion, useMotionValue } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
-const FramerImage = motion(Image);
+const FramerImage = motion.create(Image);
 
 const MovingImg = ({ title, img, link }) => {
   const x = useMotionValue(0);

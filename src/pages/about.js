@@ -2,7 +2,7 @@ import AnimatedText from "@/components/AnimatedText";
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import React, { useEffect, useRef } from "react";
-import profilePic from "../../public/images/profile/profile_pic.png";
+import profilePic from "../../public/images/profile/profile-image-2.jpeg";
 import Image from "next/image";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
 import Skills from "@/components/Skills";
@@ -42,7 +42,7 @@ const about = () => {
         <meta name="description" content="any description" />
       </Head>
       <TransitionEffect />
-      <main className="flex flex-col items-center justify-center w-full dark:text-light">
+      <main className="relative flex flex-col items-center justify-center w-full dark:text-light">
         <Layout className={"pt-14"}>
           <AnimatedText
             text={"Passion Fuels Purpose!"}
@@ -54,23 +54,25 @@ const about = () => {
                 Biography
               </h2>
               <p className="font-medium ">
-                Hi, I&apos;m CodeBucks, a full stack web developer with a
-                passion for creating beautiful, functional, and user-centered
-                digital experiences. I have real world project experience in the
-                field. I am always looking for new and innovative ways to bring
-                my clients visions to life.
+                👋 Hey there! I&apos;m a{" "}
+                <strong>full stack software engineer</strong> who loves
+                transforming ideas into <strong>powerful digital experiences</strong>.
+                With hands-on experience building real-world applications, I
+                thrive on crafting solutions that are not just functional — but{" "}
+                <strong>beautiful and intuitive</strong> too. 🚀
               </p>
               <p className="my-4 font-medium">
-                I believe that design is about more than just making things look
-                pretty – it&apos;s about solving problems and creating
-                intuitive, enjoyable experiences for users.
+                💡 For me, great software goes beyond clean code — it&apos;s
+                about <strong>solving real problems</strong> and creating
+                experiences that users genuinely enjoy. I believe every pixel
+                and every line of code should serve a purpose.
               </p>
               <p className="font-medium ">
-                Whether I&apos;m working on a website, mobile app, or other
-                digital product, I bring my commitment to design excellence and
-                user-centered thinking to every project I work on. I look
-                forward to the opportunity to bring my skills and passion to
-                your next project.
+                🎯 Whether it&apos;s a <strong>web application</strong>, a{" "}
+                <strong>mobile app</strong>, or a complex <strong>backend system</strong>, I
+                bring <strong>passion, precision, and creativity</strong>{" "}
+                to every project. Let&apos;s build something
+                amazing together! ✨
               </p>
             </div>
             <div className="relative col-span-3 p-8 border-2 border-solid md:col-span-8 md:order-1 xl:col-span-4 dark:border-light dark:bg-dark h-max rounded-2xl border-dark bg-light">
@@ -86,7 +88,7 @@ const about = () => {
             <div className="flex flex-col items-end justify-between col-span-2 md:order-3 xl:col-span-8 xl:flex-row xl:items-center">
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block font-bold text-7xl md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumber value={15} />+
+                  <AnimatedNumber value={10} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize dark:text-light/75 text-dark/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
                   satisfied clients
@@ -94,7 +96,7 @@ const about = () => {
               </div>
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block font-bold text-7xl md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumber value={10} />+
+                  <AnimatedNumber value={15} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize dark:text-light/75 text-dark/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
                   projects completed
@@ -102,7 +104,7 @@ const about = () => {
               </div>
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block font-bold text-7xl md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumber value={1} />+
+                  <AnimatedNumber value={2} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize dark:text-light/75 text-dark/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
                   years of experience

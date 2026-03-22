@@ -11,7 +11,7 @@ import projects2 from "../../public/images/projects/react_restaurent_pro.jpg";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
-const FramerImage = motion(Image);
+const FramerImage = motion.create(Image);
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
   return (
@@ -22,15 +22,16 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
         target="_blank"
         className="w-1/2 overflow-hidden rounded-lg cursor-pointer lg:x-full"
       >
-        <FramerImage
-          src={img}
-          alt={title}
-          className="w-full h-auto border border-black rounded-2xl"
-          whileHover={{ scale: 1.05 }}
-          transition={{ duration: 0.2 }}
-          priority
-          sizes="(max-width: 768px) 100vw,(max-width: 1200px) 50vw,50vw"
-        />
+        <motion.div whileHover={{ scale: 1.05 }} transition={{ duration: 0.2 }}>
+          <Image
+            src={img}
+            alt={title}
+            className="w-full h-auto border border-black rounded-2xl"
+            priority
+            loading="eager"
+            sizes="(max-width: 768px) 100vw,(max-width: 1200px) 50vw,50vw"
+          />
+        </motion.div>
       </Link>
       <div className="flex flex-col items-start justify-between w-1/2 pl-6 lg:w-full lg:pl-0 lg:pt-6">
         <span className="text-xl font-medium text-primary dark:text-primaryDark xs:text-base">

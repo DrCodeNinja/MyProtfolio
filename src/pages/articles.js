@@ -9,6 +9,7 @@ import article2 from "../../public/images/articles/nestjs.jpg";
 import article3 from "../../public/images/articles/seq.png";
 import article4 from "../../public/images/articles/form validation in reactjs using custom react hook.png";
 import article5 from "../../public/images/articles/smooth scrolling in reactjs.png";
+import article6 from "../../public/images/articles/aspire.png";
 import { motion, useMotionValue } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -138,6 +139,13 @@ const articles = () => {
               link={"https://github.com/DrCodeNinja/How-Setup-Seq-In-Golang"}
               img={article3}
             />
+            <FeaturedArticles
+              title="What is .NET Aspire and What Does It Do?"
+              summary=".NET Aspire is Microsoft's framework for building cloud-based and distributed applications using ASP.NET Core. It simplifies setup through C# code, orchestrates multiple services, provides built-in monitoring dashboards, and automates service connections for cloud-native architectures."
+              time="4 min read"
+              link={"https://github.com/DrCodeNinja/Articles/blob/main/what-is-dotnet-aspire.md"}
+              img={article6}
+            />
           </ul>
           <h2 className="w-full my-16 mt-32 text-4xl font-bold text-center">
             All Articles
@@ -168,6 +176,14 @@ const articles = () => {
               date={"August 26, 2024"}
               link={"https://github.com/DrCodeNinja/How-Setup-Seq-In-Golang"}
               img={article3}
+            />
+            <Articles
+              title={
+                ".NET Aspire is Microsoft's framework for building cloud-based and distributed applications using ASP.NET Core. It simplifies infrastructure setup, orchestrates multiple services, provides built-in monitoring, and automates service connections for cloud-native architectures."
+              }
+              date={"March 23, 2026"}
+              link={"https://github.com/DrCodeNinja/Articles/blob/main/what-is-dotnet-aspire.md"}
+              img={article6}
             />
           </ul>
         </Layout>

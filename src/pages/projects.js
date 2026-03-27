@@ -8,6 +8,7 @@ import React from "react";
 import projects1 from "../../public/images/projects/pro1.jpg";
 import projects1_1 from "../../public/images/projects/gocrud.jpg";
 import projects2 from "../../public/images/projects/react_restaurent_pro.jpg";
+import gatewayImg from "../../public/images/projects/gateway.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -202,6 +203,16 @@ const projects = () => {
                 github={"/"}
                 type={"Featured Project"}
                 img={projects1}
+              />
+            </div>
+            <div className="col-span-12">
+              <FeaturedProject
+                title="Gateway For .NET - API Gateway With YARP"
+                summary="A production-ready API Gateway built with ASP.NET Core and YARP (Yet Another Reverse Proxy) implementing the API Gateway pattern for microservices. Features JWT authentication, rate limiting, load balancing, health monitoring, and hot-reload configuration."
+                link={"https://github.com/DrCodeNinja/Gateway-For-Dotnet"}
+                github={"https://github.com/DrCodeNinja/Gateway-For-Dotnet"}
+                type={".NET Project"}
+                img={gatewayImg}
               />
             </div>
           </div>

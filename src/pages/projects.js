@@ -9,6 +9,7 @@ import projects1 from "../../public/images/projects/pro1.jpg";
 import projects1_1 from "../../public/images/projects/gocrud.jpg";
 import projects2 from "../../public/images/projects/react_restaurent_pro.jpg";
 import gatewayImg from "../../public/images/projects/gateway.png";
+import totpImg from "../../public/images/projects/totp.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -203,6 +204,15 @@ const projects = () => {
                 github={"/"}
                 type={"Featured Project"}
                 img={projects1}
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="TOTP Two-Factor Authentication With ASP.NET Core"
+                link={"https://github.com/DrCodeNinja/TOTP-Two-Factor-Authentication-With-ASP.NET-Core"}
+                github={"https://github.com/DrCodeNinja/TOTP-Two-Factor-Authentication-With-ASP.NET-Core"}
+                type={".NET Project"}
+                img={totpImg}
               />
             </div>
             <div className="col-span-12">

@@ -133,38 +133,12 @@ const projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                title="Promptopia AI Prompting Application"
-                summary="Promptopia is an open-source Al prompting tool for medern world to
-                discover, create and share creative prompts."
-                link={"https://github.com/DrCodeNinja/NextJS-Blog-App"}
-                github={"https://github.com/DrCodeNinja/NextJS-Blog-App"}
-                type={"NextJS Project"}
-                img={projects1}
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                title="This is a basic CRUD application built with Go, featuring user authentication using JWT tokens."
-                summary="This is a basic CRUD application built with Go, featuring user authentication using JWT tokens. The application allows users to create, read, update, and delete records securely, ensuring that only authenticated users can access and modify data. JWT tokens are used for managing user sessions, providing a lightweight and secure way to handle authentication. This setup is ideal for learning the basics of Go, implementing secure user authentication, and building a foundation for more complex applications."
-                link={
-                  "https://github.com/DrCodeNinja/Go-CRUD-Application-With-UserAthentication-Using-JWT"
-                }
-                github={
-                  "https://github.com/DrCodeNinja/Go-CRUD-Application-With-UserAthentication-Using-JWT"
-                }
-                type={"Featured Project"}
-                img={projects1_1}
-              />
-            </div>
-            <div className="col-span-12">
-              {" "}
-              <FeaturedProject
-                title="Restaurent Application"
-                summary="This is a full stack restaurent management application in reactJS. It include all the CRUD operations related to simple application."
-                link={"/"}
-                github={"/"}
-                type={"ReactJS Project"}
-                img={projects2}
+                title="Gateway For .NET - API Gateway With YARP"
+                summary="A production-ready API Gateway built with ASP.NET Core and YARP (Yet Another Reverse Proxy) implementing the API Gateway pattern for microservices. Features JWT authentication, rate limiting, load balancing, health monitoring, and hot-reload configuration."
+                link={"https://github.com/DrCodeNinja/Gateway-For-Dotnet"}
+                github={"https://github.com/DrCodeNinja/Gateway-For-Dotnet"}
+                type={".NET Project"}
+                img={gatewayImg}
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -176,14 +150,34 @@ const projects = () => {
                 img={totpImg}
               />
             </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Go CRUD Application With JWT Authentication"
+                link={"https://github.com/DrCodeNinja/Go-CRUD-Application-With-UserAthentication-Using-JWT"}
+                github={"https://github.com/DrCodeNinja/Go-CRUD-Application-With-UserAthentication-Using-JWT"}
+                type={"Go Project"}
+                img={projects1_1}
+              />
+            </div>
             <div className="col-span-12">
               <FeaturedProject
-                title="Gateway For .NET - API Gateway With YARP"
-                summary="A production-ready API Gateway built with ASP.NET Core and YARP (Yet Another Reverse Proxy) implementing the API Gateway pattern for microservices. Features JWT authentication, rate limiting, load balancing, health monitoring, and hot-reload configuration."
-                link={"https://github.com/DrCodeNinja/Gateway-For-Dotnet"}
-                github={"https://github.com/DrCodeNinja/Gateway-For-Dotnet"}
-                type={".NET Project"}
-                img={gatewayImg}
+                title="Promptopia AI Prompting Application"
+                summary="Promptopia is an open-source Al prompting tool for medern world to
+                discover, create and share creative prompts."
+                link={"https://github.com/DrCodeNinja/NextJS-Blog-App"}
+                github={"https://github.com/DrCodeNinja/NextJS-Blog-App"}
+                type={"NextJS Project"}
+                img={projects1}
+              />
+            </div>
+            <div className="col-span-12">
+              <FeaturedProject
+                title="Restaurent Application"
+                summary="This is a full stack restaurent management application in reactJS. It include all the CRUD operations related to simple application."
+                link={"/"}
+                github={"/"}
+                type={"ReactJS Project"}
+                img={projects2}
               />
             </div>
           </div>

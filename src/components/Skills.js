@@ -27,27 +27,38 @@ const Skills = () => {
         >
           Web Developer
         </motion.div>
-        <Skill name={"CSS"} x="-0vw" y="-13vw" />
-        <Skill name={"HTML"} x="-12vw" y="10vw" />
-        <Skill name={"Javascript"} x="14vw" y="-10vw" />
-        <Skill name={"AdobeXD"} x="-15vw" y="-10vw" />
-        <Skill name={"Figma"} x="15vw" y="10vw" />
-        <Skill name={"MongoDB"} x="12vw" y="-20vw" />
-        <Skill name={"ReactJS"} x="-15vw" y="-20vw" />
-        <Skill name={"SQL"} x="-26vw" y="0vw" />
-        <Skill name={"Tailwind"} x="0vw" y="20vw" />
-        <Skill name={"NextJS"} x="26vw" y="0vw" />
-        <Skill name={"NodeJS"} x="22vw" y="15vw" />
-        <Skill name={"Golang"} x="-12vw" y="19vw" />
-        <Skill name={"Github"} x="12vw" y="19vw" />
-        <Skill name={"Postgres"} x="-25vw" y="-15vw" />
-        <Skill name={"Mysql"} x="23vw" y="-15vw" />
-        <Skill name={"Seq"} x="0vw" y="11vw" />
-        <Skill name={"C#"} x="-22vw" y="15vw" />
-        <Skill name={"Auth0"} x="35vw" y="5vw" />
-        <Skill name={"Redis"} x="35vw" y="-5vw" />
-        <Skill name={"Docker"} x="-35vw" y="-5vw" />
-        <Skill name={"Postman"} x="0vw" y="-20vw" />
+        <Skill name={"CSS"} x="0vw" y="-10vw" />
+        <Skill name={"HTML"} x="-10vw" y="8vw" />
+        <Skill name={"Javascript"} x="11vw" y="-7vw" />
+        <Skill name={"TypeScript"} x="-11vw" y="-7vw" />
+        <Skill name={"Figma"} x="13vw" y="8vw" />
+        <Skill name={"MongoDB"} x="10vw" y="-16vw" />
+        <Skill name={"ReactJS"} x="-13vw" y="-16vw" />
+        <Skill name={"Angular"} x="-24vw" y="-10vw" />
+        <Skill name={"Vue.js"} x="24vw" y="-10vw" />
+        <Skill name={"SQL"} x="-22vw" y="0vw" />
+        <Skill name={"Tailwind"} x="0vw" y="16vw" />
+        <Skill name={"NextJS"} x="22vw" y="0vw" />
+        <Skill name={"NodeJS"} x="19vw" y="12vw" />
+        <Skill name={"Golang"} x="-10vw" y="15vw" />
+        <Skill name={"Github"} x="10vw" y="15vw" />
+        <Skill name={"Postgres"} x="-20vw" y="-18vw" />
+        <Skill name={"Mysql"} x="20vw" y="-18vw" />
+        <Skill name={"Seq"} x="0vw" y="9vw" />
+        <Skill name={"C#"} x="-19vw" y="12vw" />
+        <Skill name={"ASP.NET Core"} x="0vw" y="-23vw" />
+        <Skill name={"Express"} x="-30vw" y="5vw" />
+        <Skill name={"Redis"} x="30vw" y="-5vw" />
+        <Skill name={"Docker"} x="-30vw" y="-5vw" />
+        <Skill name={"Postman"} x="0vw" y="-17vw" />
+        <Skill name={"AWS"} x="30vw" y="5vw" />
+        <Skill name={"RabbitMQ"} x="-35vw" y="12vw" />
+        <Skill name={"Redux"} x="35vw" y="12vw" />
+        <Skill name={"Bootstrap"} x="-14vw" y="22vw" />
+        <Skill name={"Prisma"} x="14vw" y="22vw" />
+        <Skill name={"Sass"} x="0vw" y="24vw" />
+        <Skill name={"Swagger"} x="-35vw" y="-12vw" />
+        <Skill name={"GitHub Actions"} x="35vw" y="-12vw" />
       </div>
     </>
   );
